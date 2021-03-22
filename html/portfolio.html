@@ -1,0 +1,157 @@
+<html>
+<title>
+  Welcome Recruiters!
+</title>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+    #bag_img {
+      background-image: url("../images/cool-background_2.png");
+      height: 100%;
+            /* To make my intro card at the center of background image before "about me" section */
+            
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .common_mar_two{
+      margin-top: 2%;
+      margin-left: 2%;
+    }
+    .common_mar_one{
+      margin-top: 1%;
+      margin-left: 1%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- VERY IMPORTANT:- DONT PUT CARDS OR NAVBARS in Containers or rows&col unnecesserilly -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top d-flex align-items-center" style="background-color:#12232E;">
+    <!-- background-color:#5A5660  try it, may look good on navbar
+      or
+      background-color:#8265A7 try it,may look good on navbar
+      or 
+      background-color:#2D273D try it,may look good on navbar
+    -->
+
+
+  <div class="container-fluid">
+    <div class="navbar-header d-lg-none">
+      <button type="btn btn-secondary dropdown-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <!-- me mb comes under bootstrap/utilities/spacing -->
+      <!-- SPACING -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active " href="#about" style="color: #3190DC;">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#experience" style="color: #3190DC;">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active " href="#projects" style="color: #3190DC;">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active " href="#skills" style="color: #3190DC;">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active " href="#achievement" style="color: #3190DC;">Achievement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active " href="#" style="color: #3190DC;">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div >
+      <!-- Here text-nowrap is helping text to not get into another line -->
+      <a href="/Users/shikharjain/Desktop/BOOTSTRAP-ASSIGNMENT-SHIKHAR JAIN/Shikhar_Aricent_Resume.pages"
+        target="_blank" class="btn text-nowrap text-white " href="#" download="kuch_bhi" style=" background-color:#4690D9; border-radius: 25px;">Download CV</a>
+    </div>
+  </div>
+</nav>
+
+  <div class="container-fluid" id="bag_img">
+    <div class="card  bg-transparent border-0 " style="width: 40rem; color: #12232E;">
+      <div class="row no-gutters">
+        <!-- col-md and col-sm are making photo and description responsive -->
+        <div class="col-md-4 col-sm-5">
+          <img src="../images/Shikhar_Jain_Photo.jpg" class="card-img rounded-circle" alt="...">
+        </div>
+        <div class="col-md-8 col-sm-7">
+          <div class="card-body">
+            <h1 class="card-title">Hello I'm Shikhar Jain</h1>
+            <p class="card-text">I am FrontEnd Developer and currently working with Altran.I have 1 Year
+              of experience in Software Development and looking for opportunities in Industry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid d-flex flex-row" style="background-color: #12232E; height: 100%; color: #3190DC;">
+    <div class="row">
+      <div class="col" id="about">
+        <h1 class="display-4 common_mar_two ">About Me</h1>
+        <p class="common_mar">I was born and brought up in Delhi and did my schooling from one of the Arya Samaj School
+          ,which taught me secular values of society for good 15 years.My Mother is working as Deputy Manager in a PSU
+          and my father is retired Guested Officer. I have two elder sisters and both are happily married.</p>
+      </div>
+      <div class="col" id="experience">
+        <h1 class="display-4 common_mar_two ">Experience</h1>
+        <p class="common_mar_two">I was born and brought up in Delhi and did my schooling from one of the Arya Samaj School
+          ,which taught me secular values of society for good 15 years.My Mother is working as Deputy Manager in a PSU
+          and my father is retired Guested Officer. I have two elder sisters and both are happily married.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid d-flex flex-column" style="background-color:#203647; height: 100%;" id="projects">
+
+    <h1 class="display-4 common_mar_one">Projects</h1>
+
+  </div>
+
+  <div class="container-fluid text-white" style="background-color:#293145; height: 100%;" >
+    <div class="row">
+      <div class="col" id="skills">
+        <h1 class="display-4 common_mar_two ">Skills</h1>
+        <p class="common_mar_two">I was born and brought up in Delhi and did my schooling from one of the Arya Samaj School
+          ,which taught me secular values of society for good 15 years.My Mother is working as Deputy Manager in a PSU
+          and my father is retired Guested Officer. I have two elder sisters and both are happily married.</p>
+      </div>
+      <div class="col" id="achievement">
+        <h1 class="display-4 common_mar_two ">Achievement</h1>
+        <p class="common_mar_two">I was born and brought up in Delhi and did my schooling from one of the Arya Samaj School
+          ,which taught me secular values of society for good 15 years.My Mother is working as Deputy Manager in a PSU
+          and my father is retired Guested Officer. I have two elder sisters and both are happily married.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid d-flex flex-column" style="background-color:#EFFAFB; height: 50%;">
+
+    <h1 class="display-4 common_mar_one">Projects</h1>
+
+  </div>
+
+  <!-- Bundle.js important for dropdown items -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
