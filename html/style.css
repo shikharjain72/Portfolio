@@ -1,0 +1,17 @@
+#bag_img {
+  background-image: url("../images/cool-background_2.png");
+  height: 100%;
+        /* To make my intro card at the center of background image before "about me" section */
+        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common_mar_two{
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.common_mar_one{
+  margin-top: 1%;
+  margin-left: 1%;
+}
